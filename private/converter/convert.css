@@ -1,0 +1,54 @@
+html {
+	background-color: #370617;
+}
+
+#top {
+	background-image: url("dice.jpg");
+	width:600px;
+	height: 50px;
+	border-left: solid;
+	border-right: solid;
+	border-top: solid;
+	border-bottom: none;
+}
+body > div#footer {
+		text-align: center;
+}
+div {
+	background-image: url("wall.jpg");
+	padding-bottom: 30px;
+	padding-top: 30px;
+	width: 600px;
+	margin: auto;
+	border-left: solid;
+	border-right: solid;
+	border-bottom: solid;
+	border-top: dashed;
+}
+
+h1, p {
+	text-align: center;
+	color: white;
+}
+
+#gold {
+	text-shadow: 5px 5px 3px gold;
+}
+
+#silver {
+	text-shadow: 5px 5px 3px silver;
+}
+
+
+p#footer {
+		text-align: center;
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 600px){
+   #top {
+        width:95%;
+   }
+   div {
+        width:95%;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>Gold to Silver D&D Converter</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="convert.js"></script>
+		<link href="convert.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="top">
+		</div>
+		<div>
+			<h1><span id="gold">Gold</span> to <span id="silver">Silver</span> D&D Converter</h1>
+			<p>Type a value in the Gold field to convert the value to Silver:</p>
+
+			<p>
+			  <label>Gold</label>
+			  <input id="inputGold" type="number" placeholder="Gold" oninput="GoldConverter(this.value)" onchange="GoldConverter(this.value)">
+			</p>
+			<p>Silver: <span id="outputSilver"></span></p>
+            <p>
+			  <label>Silver</label>
+			  <input id="inputSilver" type="number" placeholder="Silver" oninput="SilverConverter(this.value)" onchange="SilverConverter(this.value)">
+			</p>
+			<p>Gold: <span id="outputGold"></span></p>
+		</div>
+		<p id="footer">
+			<a href="http://puff.mnstate.edu/~tr2720ok/private/index.html">Main Index</a>
+		</p>
+
+	</body>
+</html>

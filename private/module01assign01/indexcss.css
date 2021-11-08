@@ -1,0 +1,21 @@
+div {
+	width: 500px;
+	margin: auto;
+	background-color: grey;
+	border: 5px solid black;
+	text-align: center;
+	color: white;
+}
+
+h1, h2 {
+	text-decoration: underline;
+}
+ul {
+	margin-left: 20%;
+}
+
+li {
+	list-style-position: inside;
+	text-align: left;
+	list-style-type: square;
+}

@@ -1,0 +1,91 @@
+html {
+    background-color: #300303;
+}
+
+#top {
+    background-image: url("gold.jfif");
+    background-size: cover;
+    width:600px;
+    height: 100px;
+    margin: auto;
+    border-left: solid rgb(0, 102, 255);
+    border-right: solid rgb(0, 102, 255);
+    border-top: solid rgb(0, 102, 255);
+    border-bottom: none rgb(0, 102, 255);
+}
+
+#background {
+    background-image: url("fire.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    border-left: solid rgb(0, 102, 255);
+    border-right: solid rgb(0, 102, 255);
+    border-bottom: solid rgb(0, 102, 255);
+    border-top: dashed rgb(0, 102, 255);
+}
+
+h1, p {
+    text-align: center;
+    color: rgb(0, 102, 255);
+}
+
+
+#goldText {
+    text-shadow: 5px 5px 3px gold;
+}
+
+#silverText {
+    text-shadow: 5px 5px 3px silver;
+}
+
+#panelGold, #flipGold {
+color: rgb(0, 102, 255);
+width: 75%;
+margin: auto;
+padding: 5px;
+text-align: center;
+background-image: linear-gradient(to right, rgba(255,223,0,.6), rgba(192,192,192,.6));
+border: solid 1px gold;
+}
+
+#panelGold {
+    display: none;
+}
+
+#panelSilver, #flipSilver {
+color: rgb(0, 102, 255);
+width: 75%;
+margin: auto;
+padding: 5px;
+text-align: center;
+background-image: linear-gradient(to right, rgba(192,192,192,.6), rgba(255,223,0,.6));
+border: solid 1px silver;
+border
+}
+
+#panelSilver {
+    display: none;
+}
+
+#flipSilver {
+    margin-top: 25px;
+}
+
+a {
+    color: rgb(0, 102, 255);
+}
+
+#buttons {
+    text-align:center;
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 600px){
+#top, #background {
+        width:95%;
+}
+}

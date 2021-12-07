@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en-us"> 
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Converter 2.0</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+	<script src="jq_convert.js" defer></script> 
+	<link rel="stylesheet" href="jq_convert.css"/>
+</head> 
+<body>
+	<div id="top">
+	</div>
+	<div id="background">
+		<h1><span id="goldText">Gold</span> to <span id="silverText">Silver</span> D&D Converter</h1>
+		
+		<div id="flipGold">Click to convert gold to silver!</div>
+		<div id="panelGold">
+			<p>How much gold? &nbsp&nbsp<input type="number" id="gold" ></p> 
+			<p id="outSilver"></p> 
+			<button id="goldButton">Gold to Silver</button> 
+		</div>
+		
+		<div id="flipSilver">Click to convert silver to gold!</div>
+		<div id="panelSilver">
+			<p>How much silver? <input type="number" id="silver" ></p> 
+			<p id="outGold"></p> 
+			<button id="silverButton">Silver to Gold</button> 
+		</div>
+	</div>
+    <p id="footer">
+        <a href="http://puff.mnstate.edu/~tr2720ok/private/index.html">Main Index</a>
+    </p>
+	<div id="buttons">
+		<button id="norm"> Original! </button>
+		<button id="dark"> Dark!</button>
+		<button id="rainbow"> Rainbow!</button>
+		<button id="fire"> Fire!</button>
+	</div>
+</body> 
+</html> 

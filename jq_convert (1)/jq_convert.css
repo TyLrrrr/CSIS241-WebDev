@@ -1,0 +1,91 @@
+html {
+    background-color: #073b4c;
+}
+
+#top {
+    background-image: url("gold.jfif");
+    background-size: cover;
+    width:600px;
+    height: 100px;
+    margin: auto;
+    border-left: solid;
+    border-right: solid;
+    border-top: solid;
+    border-bottom: none;
+}
+
+#background {
+    background-image: url("background.jfif");
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-top: dashed;
+}
+
+h1, p {
+    text-align: center;
+    color: white;
+}
+
+
+#goldText {
+    text-shadow: 5px 5px 3px gold;
+}
+
+#silverText {
+    text-shadow: 5px 5px 3px silver;
+}
+
+#panelGold, #flipGold {
+color: white;
+width: 75%;
+margin: auto;
+padding: 5px;
+text-align: center;
+background-image: linear-gradient(to right, rgba(255,223,0,.4), rgba(192,192,192,.4));
+border: solid 1px gold;
+}
+
+#panelGold {
+    display: none;
+}
+
+#panelSilver, #flipSilver {
+color: white;
+width: 75%;
+margin: auto;
+padding: 5px;
+text-align: center;
+background-image: linear-gradient(to right, rgba(192,192,192,.4), rgba(255,223,0,.4));
+border: solid 1px silver;
+border
+}
+
+#panelSilver {
+    display: none;
+}
+
+#flipSilver {
+    margin-top: 25px;
+}
+
+a {
+    color: white;
+}
+
+#buttons {
+    text-align:center;
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 600px){
+#top, #background {
+        width:95%;
+}
+}

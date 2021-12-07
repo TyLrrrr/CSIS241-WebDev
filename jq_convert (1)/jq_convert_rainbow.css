@@ -1,0 +1,92 @@
+
+html {
+    background: linear-gradient(0.25turn, #ffcfd2, #fde4cf, #fbf8cc, #b9fbc0, #90dbf4, #cfbaf0);;
+}
+
+#top {
+    background-image: url("gold.jfif");
+    background-size: cover;
+    width:600px;
+    height: 100px;
+    margin: auto;
+    border-left: solid pink;
+    border-right: solid pink;
+    border-top: solid pink;
+    border-bottom: none pink;
+}
+
+#background {
+    background-image: url("rainbow.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    border-left: solid pink;
+    border-right: solid pink;
+    border-bottom: solid pink;
+    border-top: dashed pink;
+}
+
+h1, p {
+    text-align: center;
+    color: rgb(100, 100, 250);
+}
+
+
+#goldText {
+    text-shadow: 5px 5px 3px gold;
+}
+
+#silverText {
+    text-shadow: 5px 5px 3px silver;
+}
+
+#panelGold, #flipGold {
+color: rgb(100, 100, 250);
+width: 75%;
+margin: auto;
+padding: 5px;
+text-align: center;
+background-image: linear-gradient(to right, rgba(255,223,0,.7), rgba(192,192,192,.7));
+border: solid 1px gold;
+}
+
+#panelGold {
+    display: none;
+}
+
+#panelSilver, #flipSilver {
+color: rgb(100, 100, 250);
+width: 75%;
+margin: auto;
+padding: 5px;
+text-align: center;
+background-image: linear-gradient(to right, rgba(192,192,192,.7), rgba(255,223,0,.7));
+border: solid 1px silver;
+border
+}
+
+#panelSilver {
+    display: none;
+}
+
+#flipSilver {
+    margin-top: 25px;
+}
+
+a {
+    color: rgb(100, 100, 250);
+}
+
+#buttons {
+    text-align:center;
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 600px){
+#top, #background {
+        width:95%;
+}
+}
